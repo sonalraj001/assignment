@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo from "../image/illustration.jpg"
 export default function Home() {
   return (
     <div className="">
@@ -11,7 +11,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center items-center md:hidden">
           <img
-            src="/illustration.jpg" 
+            src={logo}
             alt="Digital marketing illustration"
             className="max-w-full h-auto"
           />
@@ -25,7 +25,7 @@ export default function Home() {
        
         <div className="md:flex justify-center items-center hidden">
           <img
-            src="/illustration.jpg"
+            src={logo}
             alt="Digital marketing illustration"
             className="max-w-full h-auto"
           />
