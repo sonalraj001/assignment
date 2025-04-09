@@ -11,7 +11,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center items-center md:hidden">
           <img
-            src="illustration.jpg" 
+            src="/illustration.jpg" 
             alt="Digital marketing illustration"
             className="max-w-full h-auto"
           />
@@ -25,7 +25,7 @@ export default function Home() {
        
         <div className="md:flex justify-center items-center hidden">
           <img
-            src="illustration.jpg"
+            src="/illustration.jpg"
             alt="Digital marketing illustration"
             className="max-w-full h-auto"
           />
