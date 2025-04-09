@@ -5,15 +5,15 @@ export default function Footer() {
   return (
     <div className="w-full">
     <div className="bg-[#1a1a1a] text-white px-6 py-10 md:rounded-t-3xl">
-      {/* Top row: Logo - Navigation - Social Icons */}
+     
       <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-        {/* Logo */}
+      
         <div className="flex gap-1 justify-center items-center">
          <PiStarFourThin className='text-xl'/>
         <div className="text-2xl font-bold">Positivus</div>
         </div>
 
-        {/* Navigation */}
+       
         <div className="flex flex-col md:flex-row justify-center items-center md:gap-6 gap-2 text-sm font-medium">
           <div className=''>About us</div>
           <div className=''>Services</div>
@@ -22,7 +22,7 @@ export default function Footer() {
           <div className=''>Blog</div>
         </div>
 
-        {/* Social Icons */}
+     
         <div className="hidden md:flex space-x-4 text-white">
           <a href="#"><FaLinkedinIn size={18} /></a>
           <a href="#"><FaFacebookF size={18} /></a>
@@ -30,9 +30,9 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Contact Info + Subscription */}
+   
       <div className="md:mt-10 mt-5 flex flex-col md:flex-row justify-between gap-10 items-center">
-        {/* Contact Section */}
+     
         <div className="flex flex-col items-center md:items-start space-y-4">
           <span className="inline-block bg-[#B9FF66] text-black px-2 py-1 text-sm font-medium rounded-md w-fit">
             Contact us:
@@ -45,7 +45,7 @@ export default function Footer() {
           </address>
         </div>
 
-        {/* Email Subscription */}
+      
         <div className="bg-[#2a2a2a] rounded-lg p-4 flex flex-col sm:flex-row items-center gap-3 w-full md:w-auto">
           <input
             type="email"
@@ -63,7 +63,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Footer Bottom */}
+  
       <div className="mt-10 border-t border-gray-600 pt-4 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
       
         <p>© 2023 Positivus. All Rights Reserved.</p>

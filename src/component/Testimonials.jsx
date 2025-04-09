@@ -76,7 +76,7 @@ export default function Testimonials() {
           ))}
         </div>
 
-        {/* Navigation */}
+     
         <div className="flex justify-center items-center mt-8 space-x-4">
           <button onClick={handlePrev}>
             <ArrowLeft className="text-white w-5 h-5" />

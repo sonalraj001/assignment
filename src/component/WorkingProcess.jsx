@@ -12,9 +12,9 @@ const steps = [
     number: '02',
     title: 'Research and Strategy Development',
     content:
-      'We dive deep into market research, competitor analysis, and trend evaluation to build a data-driven strategy that’s right for your brand.',
+      'We dive deep into market research, competitor analysis, and trend evaluation to build a data-driven strategy that right for your brand.',
   },
-  // Add more steps as needed
+
 ];
 
 export default function WorkingProcess() {

@@ -3,17 +3,15 @@ import React from 'react';
 export default function Home() {
   return (
     <div className="">
-
-      {/* Hero Section */}
       <section className="grid md:grid-cols-2 gap-8 items-center py-16">
-        {/* Left content */}
+     
         <div>
           <div className="md:text-5xl text-4xl font-bold flex flex-col gap-5 mb-6">
            <div className="">Navigating the</div><div className="">digital landscape</div><div className="">for success</div> 
           </div>
           <div className="flex justify-center items-center md:hidden">
           <img
-            src="illustration.png" // Replace this path with your actual image path
+            src="illustration.jpg" 
             alt="Digital marketing illustration"
             className="max-w-full h-auto"
           />
@@ -24,10 +22,10 @@ export default function Home() {
           <button className="bg-black text-white px-6 py-3 rounded-lg font-medium">Book a consultation</button>
         </div>
 
-        {/* Right image */}
+       
         <div className="md:flex justify-center items-center hidden">
           <img
-            src="illustration.png" // Replace this path with your actual image path
+            src="illustration.jpg"
             alt="Digital marketing illustration"
             className="max-w-full h-auto"
           />

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X } from 'react-feather'; // you can use any icon lib like react-icons too
+import { Menu, X } from 'react-feather';
 import { PiStarFourFill } from "react-icons/pi";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,10 +11,7 @@ export default function Navbar() {
         <PiStarFourFill className='text-xl'/>
         <div className="text-2xl font-bold text-black">Positivus</div>
         </div>
-        {/* Logo */}
-        
-
-        {/* Desktop Menu */}
+      
         <ul className="hidden md:flex space-x-6 text-gray-700 font-medium">
           <li>About us</li>
           <li>Services</li>
@@ -23,12 +20,12 @@ export default function Navbar() {
           <li>Blog</li>
         </ul>
 
-        {/* Desktop CTA */}
+       
         <button className="hidden md:block border border-black px-4 py-2 rounded-xl font-medium">
           Request a quote
         </button>
 
-        {/* Mobile Hamburger Icon */}
+       
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -36,7 +33,7 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile Menu */}
+   
       {isOpen && (
         <div className="md:hidden px-6 py-4 bg-white space-y-4 shadow-md">
           <ul className="flex flex-col space-y-4 text-gray-700 font-medium">
